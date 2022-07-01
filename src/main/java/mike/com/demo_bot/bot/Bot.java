@@ -251,9 +251,9 @@ public class Bot extends TelegramLongPollingBot {
                             messagesRepository.delete(messages);
 
                             if (current_user.getRole().equals("admin")) {
-                                sendMessage = service.admin_menu(update, current_user);
+                                sendMessage1 = service.admin_menu(update, current_user);
                             } else {
-                                sendMessage = service.user_menu(update, current_user);
+                                sendMessage1 = service.user_menu(update, current_user);
                             }
                             sendMessage1.setText("Menudan tanlang :");
                             execute(sendMessage1);
