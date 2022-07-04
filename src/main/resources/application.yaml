@@ -21,8 +21,9 @@ spring:
       max-request-size: 20MB
       max-file-size: 20MB
 
-telegram_bot_username: sharp_0706_bot
-telegram_bot_botToken: 5262928944:AAE9u_A7V-hzmoIjyih7KITN0vPvolfx5-w
+
+telegram_bot_username: official_support_company_bot
+telegram_bot_botToken: 5535259100:AAE667Qew7HyRTa-ty4zd55_TV_MsB_kTGU
 special_code: '+998909741228 +998332002022'
 
 
